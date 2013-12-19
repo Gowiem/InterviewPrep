@@ -53,9 +53,5 @@ Prep.quicksort = (function() {
     items[right] = temp;
   }
 
-  return {
-    run: function(input) {
-      return quicksort(input);
-    }
-  }
+  return quicksort;
 })();
